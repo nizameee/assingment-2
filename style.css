@@ -188,3 +188,9 @@ br {
     align-items: center;
     margin-left: 10px;
 }
+
+.box-father {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
