@@ -12,11 +12,15 @@ h1,
 
 body {
     background-color: rgb(229, 220, 241);
+
+
+}
+
+.full-part {
     padding: 40px;
     align-items: center;
     justify-content: center;
     display: grid;
-
 }
 
 /* top section  */
@@ -39,7 +43,7 @@ body {
     background-color: black;
 }
 
-.ayon {
+.top-1 {
     display: flex;
 
 
@@ -193,4 +197,45 @@ br {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+}
+
+.bottom-part {
+    height: 400px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.bottom-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+.line {
+    padding: 0 20px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.last-p {
+    color: white;
+    margin-right: 20px;
+}
+
+.last-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.last-i {
+    margin-right: 20px;
+
 }
